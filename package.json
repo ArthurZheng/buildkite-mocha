@@ -1,0 +1,24 @@
+{
+  "name": "buildkite-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/.bin/mocha tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurZheng/buildkite-mocha.git"
+  },
+  "author": "Jun Zheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurZheng/buildkite-mocha/issues"
+  },
+  "homepage": "https://github.com/ArthurZheng/buildkite-mocha#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
